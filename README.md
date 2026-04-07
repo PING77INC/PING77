@@ -12,8 +12,6 @@
 
 Every failure has a price. Now you can collect it.
 
-CA: AKWVwN3tUdeisoQsRHJE1A5kvcURHa7Ajmj7QYgZpump
-
 <br />
 
 [![Website](https://img.shields.io/badge/Website-ping77.xyz-0a0f0a?style=for-the-badge&logo=googlechrome&logoColor=7fff7f&labelColor=0a0f0a)](https://ping77.xyz)
