@@ -15,7 +15,7 @@ Every failure has a price. Now you can collect it.
 <br />
 
 [![Website](https://img.shields.io/badge/Website-ping77.xyz-0a0f0a?style=for-the-badge&logo=googlechrome&logoColor=7fff7f&labelColor=0a0f0a)](https://ping77.xyz)
-[![Twitter](https://img.shields.io/badge/Twitter-@PING77INC-0a0f0a?style=for-the-badge&logo=x&logoColor=7fff7f&labelColor=0a0f0a)](https://x.com/PING77INC)
+[![Twitter](https://img.shields.io/badge/Twitter-@PING77LABS-0a0f0a?style=for-the-badge&logo=x&logoColor=7fff7f&labelColor=0a0f0a)](https://x.com/PING77LABS)
 [![GitHub](https://img.shields.io/badge/GitHub-PING77INC%2FPING77-0a0f0a?style=for-the-badge&logo=github&logoColor=7fff7f&labelColor=0a0f0a)](https://github.com/PING77INC/PING77)
 
 <br />
