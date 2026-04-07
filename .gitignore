@@ -51,3 +51,6 @@ contracts/broadcast/
 # Misc
 *.tar.gz
 *.zip
+
+# Task spec
+新建文本文档.txt
