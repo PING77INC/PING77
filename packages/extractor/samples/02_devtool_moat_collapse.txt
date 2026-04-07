@@ -1,0 +1,11 @@
+We built a code review assistant that used GPT-3.5 fine-tuned on 50,000 open-source pull requests. It could catch common bugs, suggest style improvements, and auto-generate review comments. We launched in March 2023 and got to 400 paying teams by June.
+
+Revenue was growing 30% month-over-month. We raised a $2M seed round in July. Everything felt like it was working.
+
+Then in November 2023, GitHub Copilot shipped its code review feature. It was baked directly into the pull request UI—no setup, no additional subscription for existing Copilot users. It wasn't as good as our product on day one, but it was free (included) and frictionless.
+
+Our churn rate went from 5% monthly to 25% monthly within 8 weeks. By February 2024, we'd lost 60% of our customer base. The teams that stayed were enterprise customers with specific compliance requirements that Copilot didn't meet yet.
+
+We tried to pivot to "enterprise code review compliance" but the sales cycle for enterprise deals was 6-9 months and we had 4 months of runway left. We laid off 6 of our 8 engineers in March and shut down completely in May 2024.
+
+Total time from launch to death: 14 months. The core lesson is that building on top of a foundation model provider's ecosystem is existentially risky—they can ship your entire product as a feature update with zero incremental cost.

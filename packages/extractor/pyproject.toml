@@ -1,0 +1,23 @@
+[project]
+name = "ping77-extractor"
+version = "0.0.1"
+description = "PING77 causal-chain extraction and death mode clustering pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.25.0",
+    "sentence-transformers>=2.6.0",
+    "hdbscan>=0.8.33",
+    "numpy>=1.26.0",
+    "pydantic>=2.0.0",
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "click>=8.1.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B"]

@@ -1,0 +1,11 @@
+We built an AI customer support platform for small pet stores. The idea was simple: replace the $15/hour human with a $200/month bot that could handle returns, appointment scheduling, and product questions.
+
+We spent 4 months building the MVP. The NLP was decent—80% accuracy on common queries. We launched a beta with 12 pet stores in the Portland area.
+
+The problem hit fast: small business owners don't buy software the way we expected. The sales cycle was brutal. Each store owner wanted a personal demo, a custom setup, and hand-holding through the first month. Our customer acquisition cost was $1,200 per store, and the monthly revenue was $200. That's a 6-month payback period assuming zero churn.
+
+But churn was 40% monthly. Pet store owners would sign up, use it for a few weeks, then quietly go back to answering the phone themselves. When we asked why, the answer was always some version of "my customers prefer talking to a real person" or "it's just easier to do it myself."
+
+By month 11, we had 8 paying customers and had burned through $180,000 of our $200,000 pre-seed. We tried pivoting to veterinary clinics but the compliance requirements (appointment data, medical records) added 6 months of engineering work we couldn't afford.
+
+We shut down in month 14. The final realization was that SMB willingness-to-pay for AI tools is structurally lower than what it costs to acquire and retain them. The unit economics never worked and never would have worked at our price point.

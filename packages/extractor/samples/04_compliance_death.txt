@@ -1,0 +1,13 @@
+We built a telehealth scheduling platform for small mental health practices. The product was straightforward: a booking page, automated reminders, and a simple intake form that fed into the therapist's existing EHR system.
+
+We launched in Q2 2023 with a $49/month price point per practitioner. Growth was solid—120 paying practitioners by month 6. The product was simple and therapists loved not having to manage their own scheduling anymore.
+
+Then a large customer asked us to support insurance billing integration. To do that properly, we needed to handle patient data in a HIPAA-compliant way. Our existing architecture stored some patient names and appointment reasons in plaintext logs. We'd been operating in a gray area that nobody had flagged yet.
+
+The HIPAA compliance overhaul took 5 months. We had to: (1) encrypt all data at rest and in transit, (2) implement audit logging, (3) get a SOC 2 Type II certification, (4) hire a compliance officer, and (5) migrate all existing data to the compliant architecture without downtime.
+
+The SOC 2 audit alone cost $35,000. The compliance officer was $8,000/month. Our total compliance spend was approximately $120,000—more than our annual revenue at the time.
+
+Meanwhile, our competitors who had built HIPAA-compliant from day one (SimplePractice, Jane App) were iterating on features while we were rewriting infrastructure. We lost 30% of our customers during the 5-month feature freeze.
+
+We ran out of money in month 15. The compliance costs consumed our entire seed round and we couldn't raise a Series A with declining revenue metrics. We sold the customer list to a competitor for $25,000 and shut down.

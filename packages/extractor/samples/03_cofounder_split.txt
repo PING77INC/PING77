@@ -1,0 +1,13 @@
+Two of us started a fintech dashboard for freelancers in 2022. I handled product and frontend, my cofounder handled backend and infrastructure. We split equity 50/50 with a standard 4-year vest.
+
+For the first 8 months, things were smooth. We shipped fast, got into Y Combinator's Winter 2023 batch, and raised $500K on a SAFE.
+
+The conflict started around month 9 when we disagreed on whether to build a payments feature or focus on the analytics dashboard. I wanted payments because that's where the revenue was. My cofounder wanted to build the "best analytics platform for freelancers" first and monetize later.
+
+Neither of us would budge. We spent 3 months in a deadlock where we'd have the same argument every Monday, make a half-hearted compromise, then each quietly work on what we wanted. The codebase became a mess—two half-built features, neither production-ready.
+
+Our YC batch-mates were shipping weekly. We were shipping nothing. By month 14, our YC partners had an intervention. They recommended one of us step into a clear CEO role with final decision authority. My cofounder refused.
+
+I left the company in month 16. My cofounder tried to continue solo but couldn't maintain both the frontend and backend. The product stagnated. The last commit to the repo was month 19. The company was formally dissolved in month 22.
+
+The $500K raised was mostly burned on salaries during the deadlock period. If we'd had a clear decision-making framework from day one—or if one of us had simply conceded—we'd probably still be running.

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&family=VT323&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0f0a;
+  --bg-alt: #0d140d;
+  --fg: #7fff7f;
+  --fg-dim: #3d6b3d;
+  --fg-bright: #b4ffb4;
+  --accent: #ff4444;
+  --accent-dim: #7a2222;
+  --amber: #ffb000;
+  --scanline: rgba(127, 255, 127, 0.03);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* CRT scanline effect */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 2px,
+    var(--scanline) 2px,
+    var(--scanline) 3px
+  );
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* CRT vignette */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 40%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  pointer-events: none;
+  z-index: 99;
+}
+
+a {
+  color: var(--amber);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--amber);
+}
+
+a:hover {
+  background: var(--amber);
+  color: var(--bg);
+}
+
+/* Terminal input styles */
+input,
+textarea,
+select {
+  background: var(--bg);
+  color: var(--fg-bright);
+  border: 1px solid var(--fg-dim);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  padding: 10px 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--fg-bright);
+  box-shadow: 0 0 8px rgba(127, 255, 127, 0.2);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--fg-dim);
+}

@@ -1,0 +1,15 @@
+I was a solo founder building an AI-powered recipe recommendation engine for people with dietary restrictions. The idea came from my own experience managing celiac disease—I was tired of searching through blogs and forums for safe recipes.
+
+I quit my job at Google in January 2023 and started building full-time. I had $80,000 in savings, which I estimated would last 18 months if I was careful. No cofounder, no employees—just me, Claude, and a lot of coffee.
+
+The MVP took 3 months. It was a web app that took your dietary restrictions and preferences, then used an LLM to search, filter, and adapt recipes from a database of 200,000 scraped recipes. The UX was clean and the recommendations were genuinely useful.
+
+I launched on Product Hunt in April 2023 and got 2,000 signups in the first week. But converting free users to the $9.99/month premium plan was painfully slow—about 2% conversion rate. That's 40 paying users from 2,000 signups.
+
+I spent the next 8 months trying everything: different pricing, a freemium model, partnerships with nutritionists, content marketing, SEO optimization. I was working 14-hour days, 7 days a week. No weekends, no exercise, barely any social contact.
+
+By month 12, I had 180 paying users ($1,800/month MRR) and was running on fumes. I hadn't taken a vacation in a year. I was having anxiety attacks before opening my laptop. The loneliness of solo founding was worse than any technical challenge.
+
+I tried to find a cofounder but nobody wanted to join a ramen-profitable recipe app. I tried to raise funding but investors said the market was too small. I tried to hire a part-time marketer but couldn't afford one.
+
+I shut down in month 16 when my savings hit $5,000. The product was working, users loved it, but I physically could not continue. The lesson isn't about product-market fit—it's that a solo founder has a biological clock. Without external funding or a team to share the load, burnout is not a risk, it's a certainty.

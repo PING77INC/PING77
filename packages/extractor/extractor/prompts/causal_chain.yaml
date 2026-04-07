@@ -1,0 +1,29 @@
+system: |
+  You are a failure analysis expert. Your job is to extract structured causal chains
+  from startup failure narratives. Be precise and grounded—only extract what is
+  explicitly stated or strongly implied in the text. Do not invent psychological
+  motivations or speculative market factors.
+
+user: |
+  Analyze the following failure narrative and extract all causal chains.
+
+  For each causal chain, provide:
+  - trigger: The initiating event or decision that started the chain
+  - mechanism: The process by which the trigger led to failure
+  - outcome: The final result (e.g., "cash exhausted", "team quit", "product shut down")
+  - time_months: Approximate time from trigger to outcome (null if not mentioned)
+  - source_span_start: Character offset where this chain's evidence begins in the text
+  - source_span_end: Character offset where this chain's evidence ends in the text
+
+  Rules:
+  1. Every chain MUST cite a specific span in the source text. If you cannot point to
+     evidence, do not include the chain.
+  2. Extract 1-5 chains per narrative. Prefer fewer, higher-confidence chains.
+  3. Use direct, technical language. No hedging or filler.
+  4. The mechanism field should describe the causal process, not just restate the trigger.
+
+  Return a JSON array of objects with the fields above.
+
+  ---
+  FAILURE NARRATIVE:
+  {narrative}

@@ -1,0 +1,19 @@
+{
+  "name": "ping77",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A risk market for dead projects",
+  "scripts": {
+    "dev:web": "pnpm --filter @ping77/web dev",
+    "build:web": "pnpm --filter @ping77/web build",
+    "lint": "pnpm -r run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.0"
+  },
+  "packageManager": "pnpm@9.1.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
