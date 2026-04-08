@@ -12,6 +12,8 @@
 
 Every failure has a price. Now you can collect it.
 
+CA: https://pump.fun/coin/JCKsK3wsp2mgcwTu8B8Rx3fibmy489qoHfvsws1Npump
+
 <br />
 
 [![Website](https://img.shields.io/badge/Website-ping77.xyz-0a0f0a?style=for-the-badge&logo=googlechrome&logoColor=7fff7f&labelColor=0a0f0a)](https://ping77.xyz)
