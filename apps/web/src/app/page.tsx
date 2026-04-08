@@ -161,6 +161,20 @@ export default function Home() {
       <div className="font-mono bg-bg-alt border-l-[3px] border-amber px-4 py-3 my-4 text-xs text-fg-bright overflow-x-auto before:content-['$_'] before:text-amber">
         cd ping77 &amp;&amp; make bootstrap
       </div>
+
+      {/* Contract Address */}
+      <h2 className="text-[15px] font-bold text-fg-bright uppercase tracking-[0.15em] mt-12 mb-4 pb-1 border-b border-fg-dim before:content-['>>_'] before:text-accent">
+        Contract Address
+      </h2>
+      <p className="text-fg-dim text-xs mb-2 uppercase tracking-widest">
+        Solana &middot; Community Memorial Token
+      </p>
+      <div className="font-mono bg-bg-alt border border-fg-dim px-4 py-3 my-4 text-xs text-fg-bright overflow-x-auto break-all select-all">
+        JCKsK3wsp2mgcwTu8B8Rx3fibmy489qoHfvsws1Npump
+      </div>
+      <p className="text-[10px] text-fg-dim">
+        This is a community meme token&mdash;not protocol equity. See disclaimer above.
+      </p>
     </main>
   );
 }
